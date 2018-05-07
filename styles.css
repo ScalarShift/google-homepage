@@ -1,0 +1,70 @@
+.header {
+  position: relative;
+  top: 15px;
+  font-size: 10pt;
+  display: inline-block;
+  width: 100%;
+  font-family: arial;
+}
+
+.left-head {
+  float: left;
+}
+
+.right-head {
+  float: right;
+}
+
+a {
+  padding: 8px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.body {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+.google-logo {
+  width: 17.5%;
+  margin: auto;
+}
+
+.search-bar {
+  display: block;
+  width: 33%;
+  margin: 30px auto;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+
+  height: 30px;
+  font-size: 14pt;
+  border: 1px solid #CCC;
+  padding: 5px;
+}
+
+.buttons {
+  width: 20%;
+  margin: auto;
+}
+
+input {
+  font-size: 10pt;
+  height: 30px;
+  padding: 0 25px 0 25px;
+  border: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+input:hover {
+  border: 1px solid black;
+}
+
+
